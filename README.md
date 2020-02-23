@@ -15,6 +15,7 @@ Mockups were created using Adobe XD and Google Material Design icons.
 Machine learning was created using Keras and Python.
 
 We used this library to train the images: https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign#1007.jpg
+The library contains ~2,500 images for training that are confirmed skin cancer, as well as 660 testing images.
 
 ### iOS Mobile App
 
