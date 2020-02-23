@@ -23,5 +23,14 @@ Evan Kimmerlein:  I built a image classification neural network utilizing keras 
 
 ### iOS Mobile App
 
-The iOS app was created using Xcode and Swift.
+The iOS app was created using Xcode and Swift. We used Swift UI, a new tool in Xcode/Swift to design the app and tried to implement the mockups designed earlier. As we will explain further below, we ran into quite a few problems trying to build the app, mainly that Swift and iOS have undergone significant updates in the last 2 years, rendering most code over 6 months deprecated.
+
+## Problems we faced
+
+
+### iOS
+
+As mentioned earlier, the majority of tutorials we tried to follow on YouTube would not compile properly in Xcode because iOS/Swift had been updated significantly since the video was made. Even videos as recent as 6 months ago sometimes did not work due to sheer amount of changes. Additionally, we had problems trying to load the python script/ML model onto iOS. We tried using Firebase and Google's ML Kit, but their ML Kit didn't support Keras and our converted Tensorflow Lite model didn't work properly because it stripped out too much of the Keras functions. Additionally, when we tried to convert our model to Apple's Core ML, it still didn't work because Core ML does not support most Tensorflow functions.
+
+There are also 3 ways to build an iOS app (Storyboards, programmatically or Swift UI). Since you have to stick with which method you choose, a lot of tutorials were difficult to work with because they wouldn't always be using the method we were using.
 
