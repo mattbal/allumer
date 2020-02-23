@@ -1,5 +1,5 @@
 # Allumer
-A WSU Crimson Code Hackathon project.
+A WSU Crimson Code Hackathon project TIER 1.
 
 Allumer is a mobile app that uses Machine Learning to diagnose your skin patch. Simply take a photo using the app, and Allumer will determine whether or not your skin patch is likely cancerous.
 
